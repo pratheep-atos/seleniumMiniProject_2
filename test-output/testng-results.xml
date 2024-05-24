@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-22T22:59:14 IST" name="Default suite" finished-at="2024-05-22T22:59:23 IST" duration-ms="9366">
+  <suite started-at="2024-05-24T23:17:10 IST" name="Default suite" finished-at="2024-05-24T23:17:18 IST" duration-ms="8612">
     <groups>
     </groups>
-    <test started-at="2024-05-22T22:59:14 IST" name="Default test" finished-at="2024-05-22T22:59:23 IST" duration-ms="9366">
-      <class name="com.SeleniumFramework.TestCases.TC_01_Login">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.SeleniumFramework.TestCases.TC_01_Login@4659191b]" started-at="2024-05-22T22:58:46 IST" name="beforeSuite" finished-at="2024-05-22T22:59:14 IST" duration-ms="28029" status="PASS">
+    <test started-at="2024-05-24T23:17:10 IST" name="Default test" finished-at="2024-05-24T23:17:18 IST" duration-ms="8612">
+      <class name="com.SeleniumFramework.TestCases.TC_02_AddAccount">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.SeleniumFramework.TestCases.TC_02_AddAccount@27f981c6]" started-at="2024-05-24T23:16:38 IST" name="beforeSuite" finished-at="2024-05-24T23:17:10 IST" duration-ms="31219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method signature="LoginFlowValidation()[pri:0, instance:com.SeleniumFramework.TestCases.TC_01_Login@4659191b]" started-at="2024-05-22T22:59:14 IST" name="LoginFlowValidation" finished-at="2024-05-22T22:59:23 IST" duration-ms="9291" status="PASS">
+        <test-method signature="AddAccountValidation()[pri:0, instance:com.SeleniumFramework.TestCases.TC_02_AddAccount@27f981c6]" started-at="2024-05-24T23:17:10 IST" name="AddAccountValidation" finished-at="2024-05-24T23:17:18 IST" duration-ms="8555" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginFlowValidation -->
-        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:com.SeleniumFramework.TestCases.TC_01_Login@4659191b]" started-at="2024-05-22T22:59:24 IST" name="AfterSuite" finished-at="2024-05-22T22:59:24 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- AddAccountValidation -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:com.SeleniumFramework.TestCases.TC_02_AddAccount@27f981c6]" started-at="2024-05-24T23:17:18 IST" name="AfterSuite" finished-at="2024-05-24T23:17:18 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterSuite -->
-      </class> <!-- com.SeleniumFramework.TestCases.TC_01_Login -->
+      </class> <!-- com.SeleniumFramework.TestCases.TC_02_AddAccount -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

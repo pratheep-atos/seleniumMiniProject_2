@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.SeleniumFramework.TestCases.TC_01_Login">
+      <class name="com.SeleniumFramework.TestCases.TC_02_AddAccount">
         <methods>
           <include name="beforeSuite"/>
-          <include name="LoginFlowValidation"/>
           <include name="AfterSuite"/>
+          <include name="AddAccountValidation"/>
         </methods>
-      </class> <!-- com.SeleniumFramework.TestCases.TC_01_Login -->
+      </class> <!-- com.SeleniumFramework.TestCases.TC_02_AddAccount -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
