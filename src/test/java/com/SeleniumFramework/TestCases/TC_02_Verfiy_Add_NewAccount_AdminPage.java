@@ -12,7 +12,7 @@ import PageObjects.AdminPage;
 import PageObjects.LoginPage;
 import Utils.ConstantsHelper;
 
-public class TC_02_AddAccount extends BaseTest{
+public class TC_02_Verfiy_Add_NewAccount_AdminPage extends BaseTest{
 	
 	@Test
 	public void AddAccountValidation(){

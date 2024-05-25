@@ -10,7 +10,7 @@ import PageObjects.AdminPage;
 import PageObjects.LoginPage;
 import Utils.ConstantsHelper;
 
-public class TC_01_Login extends BaseTest {
+public class TC_01_Verify_AdminPage_Usernames_AscendingOrder_ByDefault extends BaseTest {
 
 	@Test
 	public void LoginFlowValidation() {
