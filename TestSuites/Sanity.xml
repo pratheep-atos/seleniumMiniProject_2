@@ -11,7 +11,7 @@
 			</run>
 		</groups>
 		<classes>
-			<class name="com.SeleniumFramework.TestCases.TC_03_HistoryValidation" />
+			<class name="com.SeleniumFramework.TestCases.TC_01_Verify_AdminPage_Usernames_AscendingOrder_ByDefault" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

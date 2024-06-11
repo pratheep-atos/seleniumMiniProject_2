@@ -11,6 +11,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
 
@@ -45,6 +46,8 @@ public class BaseTest {
 		if (browserName.equalsIgnoreCase("Firefox")) {
 			System.setProperty(prop.getProperty(ConstantsHelper.driverName),
 					prop.getProperty(ConstantsHelper.firefoxDriverPath));
+//			 FirefoxOptions capabilities = new FirefoxOptions();
+//			 capabilities.addPreference("dom.disable_beforeunload", true);
 			driver = new FirefoxDriver();
 		}
 	}

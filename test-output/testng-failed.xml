@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.SeleniumFramework.TestCases.TC_02_AddAccount">
+      <class name="com.SeleniumFramework.TestCases.TC_02_Verfiy_Add_NewAccount_AdminPage">
         <methods>
           <include name="beforeSuite"/>
-          <include name="AfterSuite"/>
           <include name="AddAccountValidation"/>
+          <include name="AfterSuite"/>
         </methods>
-      </class> <!-- com.SeleniumFramework.TestCases.TC_02_AddAccount -->
+      </class> <!-- com.SeleniumFramework.TestCases.TC_02_Verfiy_Add_NewAccount_AdminPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

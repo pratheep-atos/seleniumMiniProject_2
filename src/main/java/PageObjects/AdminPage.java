@@ -17,7 +17,7 @@ public class AdminPage {
 	
 	@FindBy(css = ".oxd-main-menu-item")
 	private WebElement AdminSection;
-	
+
 	@FindBy(css = ".oxd-table-row .oxd-table-cell:nth-child(2)")
 	private List<WebElement> UserName;
 	
@@ -37,7 +37,7 @@ public class AdminPage {
 	private WebElement EmployeeName;
 	
 	@FindBy(css = ".oxd-autocomplete-option")
-	private List<WebElement> employeeOptions;
+	private WebElement employeeOptions;
 	
 	@FindBy(xpath = "(//div[@class='oxd-select-text-input'])[2]")
 	private WebElement Status;
@@ -71,11 +71,11 @@ public class AdminPage {
 		UserRole.click();
 		AdminDropDown.click();
 	}
-	public void SelectEmployee() {
-		EmployeeName.sendKeys("peter");
+	public WebElement SelectEmployee() {
+		return EmployeeName;
 	}	
 	
-	public List<WebElement> employeeNames(){
+	public WebElement employeeName(){
 		return employeeOptions;
 	}
 	

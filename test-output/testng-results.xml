@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-24T23:17:10 IST" name="Default suite" finished-at="2024-05-24T23:17:18 IST" duration-ms="8612">
+  <suite started-at="2024-06-11T21:50:44 IST" name="Default suite" finished-at="2024-06-11T21:50:55 IST" duration-ms="10609">
     <groups>
     </groups>
-    <test started-at="2024-05-24T23:17:10 IST" name="Default test" finished-at="2024-05-24T23:17:18 IST" duration-ms="8612">
-      <class name="com.SeleniumFramework.TestCases.TC_02_AddAccount">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.SeleniumFramework.TestCases.TC_02_AddAccount@27f981c6]" started-at="2024-05-24T23:16:38 IST" name="beforeSuite" finished-at="2024-05-24T23:17:10 IST" duration-ms="31219" status="PASS">
+    <test started-at="2024-06-11T21:50:44 IST" name="Default test" finished-at="2024-06-11T21:50:55 IST" duration-ms="10609">
+      <class name="com.SeleniumFramework.TestCases.TC_02_Verfiy_Add_NewAccount_AdminPage">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.SeleniumFramework.TestCases.TC_02_Verfiy_Add_NewAccount_AdminPage@543588e6]" started-at="2024-06-11T21:50:26 IST" name="beforeSuite" finished-at="2024-06-11T21:50:44 IST" duration-ms="18028" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method signature="AddAccountValidation()[pri:0, instance:com.SeleniumFramework.TestCases.TC_02_AddAccount@27f981c6]" started-at="2024-05-24T23:17:10 IST" name="AddAccountValidation" finished-at="2024-05-24T23:17:18 IST" duration-ms="8555" status="PASS">
+        <test-method signature="AddAccountValidation()[pri:0, instance:com.SeleniumFramework.TestCases.TC_02_Verfiy_Add_NewAccount_AdminPage@543588e6]" started-at="2024-06-11T21:50:44 IST" name="AddAccountValidation" finished-at="2024-06-11T21:50:55 IST" duration-ms="10494" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddAccountValidation -->
-        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:com.SeleniumFramework.TestCases.TC_02_AddAccount@27f981c6]" started-at="2024-05-24T23:17:18 IST" name="AfterSuite" finished-at="2024-05-24T23:17:18 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:com.SeleniumFramework.TestCases.TC_02_Verfiy_Add_NewAccount_AdminPage@543588e6]" started-at="2024-06-11T21:50:55 IST" name="AfterSuite" finished-at="2024-06-11T21:50:55 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterSuite -->
-      </class> <!-- com.SeleniumFramework.TestCases.TC_02_AddAccount -->
+      </class> <!-- com.SeleniumFramework.TestCases.TC_02_Verfiy_Add_NewAccount_AdminPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
